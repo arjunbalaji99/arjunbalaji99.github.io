@@ -1,0 +1,13 @@
+.technology-desc-container {
+    margin: 10px 0 10px 0;
+}
+.technology-desc-text-right {
+    font-size: 14px;
+    margin-right: 20px;
+    color: rgb(186, 185, 185);
+}
+.technology-desc-text-left {
+    font-size: 14px;
+    margin-left: 20px;
+    color: rgb(186, 185, 185);
+}

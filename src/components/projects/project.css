@@ -1,0 +1,59 @@
+.projects-container {
+    margin: 0px 400px 0 250px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+}
+.projects-title {
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    opacity: 0;
+    transform: translateX(100px);
+    transition: opacity 2s, transform 2s ease-in-out;
+}
+.projects-title.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+.projects-title-number {
+    color: gold;
+    margin-right: 15px;
+    font-size: 36px;
+}
+.projects-title-name {
+    color: white;
+    font-size: 36px;
+    margin-right: 20px;
+}
+.projects-title-line {
+    width:  75%;
+    height: 1px;
+    border: none; /* Removes any border or outline */
+    background-color: gray; /* Sets the line's color (replace with your preferred color) */
+    margin: 5px 0; /* Adds spacing above and below the line (adjust as needed) */
+}
+.featured-projects-description {
+    margin-bottom: 100px;
+}
+.other-projects-title {
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 50px;
+    margin-left: 370px;
+    opacity: 0;
+    transform: translateY(100px);
+    transition: opacity 1.5s, transform 1.5s ease-in-out;
+}
+.other-projects-title.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+/* .featured-projects-description {
+    display: flex;
+} */
+.other-projects-description {
+    display: flex;
+}

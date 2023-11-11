@@ -1,0 +1,40 @@
+.experience-container {
+    margin: 0 400px 250px 300px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    opacity: 0;
+    transform: translateX(-200px);
+    transition: opacity 2.5s, transform 2.5s ease-in-out;
+}
+.experience-container.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+.experience-title {
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+}
+.experience-title-number {
+    color: gold;
+    margin-right: 15px;
+    font-size: 36px;
+}
+.experience-title-name {
+    color: white;
+    font-size: 36px;
+    margin-right: 20px;
+}
+.experience-title-line {
+    width:  65%;
+    height: 1px;
+    border: none; /* Removes any border or outline */
+    background-color: gray; /* Sets the line's color (replace with your preferred color) */
+    margin: 5px 0; /* Adds spacing above and below the line (adjust as needed) */
+}
+.experience-description {
+    margin-top: 50px;
+    color: lightgray;
+}

@@ -1,0 +1,9 @@
+.footer-container {
+    display: flex;
+    margin-left: 585px;
+    margin-bottom: 50px;
+
+}
+.footer-text {
+    color: lightgray;
+}

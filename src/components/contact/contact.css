@@ -1,0 +1,81 @@
+.contact-container {
+    margin: 250px 400px 200px 500px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    opacity: 0;
+    transform: translateY(100px);
+    transition: opacity 1.5s, transform 1.5s ease-in-out;
+}
+.contact-container.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+.contact-title {
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+}
+.contact-title-number {
+    color: gold;
+    margin-right: 15px;
+    font-size: 36px;
+}
+.contact-title-name {
+    color: gold;
+    font-size: 36px;
+    margin-right: 20px;
+}
+.contact-title-line {
+    width:  80%;
+    height: 1px;
+    border: none; /* Removes any border or outline */
+    background-color: gray; /* Sets the line's color (replace with your preferred color) */
+    margin: 5px 0; /* Adds spacing above and below the line (adjust as needed) */
+}
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.link-container {
+    margin-top: 40px;
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+}
+.links-svg {
+    height: 24px;
+    width: auto;
+    cursor: pointer;
+}
+.links-svg-a {
+    color: inherit;
+    text-decoration: none;
+}
+.links-svg:hover {
+    color: gray;
+}
+.resume-button {
+    background-color: transparent;
+    border: 2px solid #FFD700;
+    border-radius: 4px;
+    color: #FFD700;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-top: 30px;
+}
+.contact-calltoaction {
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 50px;
+}
+.contact-description {
+    margin-top: 50px;
+    color: lightgray;
+}
+.resume-tag-a {
+    text-decoration: none;
+    color: inherit;
+}

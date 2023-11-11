@@ -1,0 +1,30 @@
+.tab-button {
+    cursor: pointer;
+    border-left: 2px solid gray; /* Set the color and width of the left border */
+    border-top: none; /* No top border */
+    border-right: none; /* No right border */
+    border-bottom: none; /* No bottom border */
+    padding: 15px 20px; /* Adjust padding as needed */
+    background-color: transparent; /* Set the background color */
+    color: lightgray; /* Set the text color */    
+    font-size: 16px;
+}
+.tab-button-active {
+    cursor: pointer;
+    border-left: 2px solid gold; /* Set the color and width of the left border */
+    border-top: none; /* No top border */
+    border-right: none; /* No right border */
+    border-bottom: none; /* No bottom border */
+    padding: 15px 20px; /* Adjust padding as needed */
+    background-color: transparent; /* Set the background color */
+    color: lightgray; /* Set the text color */    
+    font-size: 16px;
+
+}
+.tab-button:hover {
+    background-color: lightgray;
+    color: rgb(167, 142, 0);
+}
+.tab-container {
+    width: 400px;
+}

@@ -1,0 +1,47 @@
+.tabs-container {
+    display: flex;
+    width: 900px;
+}
+.tab-list {
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.tab-content {
+    display: flex;
+    flex-direction: column;
+}
+.tab-content-title {
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.tab-content-title-desc {
+    color: white;
+    margin-right: 10px;
+}
+.tab-content-title-company {
+    color: gold;
+}
+.tab-content-time {
+    color: rgb(171, 171, 171);
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.custom-link {
+    text-decoration: none;
+    color: gold;
+}
+.tab-content-content {
+    line-height: 1.5;
+}
+.custom-link:hover {
+    text-decoration: underline;
+}
+ul {
+    list-style-type: disclosure-closed;
+}
+li {
+    margin-bottom: 10px;
+}

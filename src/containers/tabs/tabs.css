@@ -1,13 +1,14 @@
 .tabs-container {
     display: flex;
-    width: 900px;
 }
 .tab-list {
     margin-right: 50px;
+    flex: 1;
     display: flex;
     flex-direction: column;
 }
 .tab-content {
+    flex: 3;
     display: flex;
     flex-direction: column;
 }
@@ -44,4 +45,16 @@ ul {
 }
 li {
     margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+    .tab-content-content {
+        font-size: 14px;
+    }
+    .tab-content-title {
+        font-size: 20px;
+    }
+    .tab-content-time {
+        font-size: 14px;
+    }
 }

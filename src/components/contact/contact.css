@@ -1,8 +1,7 @@
 .contact-container {
-    margin: 250px 400px 200px 500px;
+    margin: 0 30% 15% 30%;
     display: flex;
     flex-direction: column;
-    width: 500px;
     opacity: 0;
     transform: translateY(100px);
     transition: opacity 1.5s, transform 1.5s ease-in-out;
@@ -40,8 +39,8 @@
 }
 .link-container {
     margin-top: 40px;
+    width: 50%;
     display: flex;
-    width: 150px;
     justify-content: space-between;
 }
 .links-svg {
@@ -78,4 +77,22 @@
 .resume-tag-a {
     text-decoration: none;
     color: inherit;
+}
+
+@media screen and (max-width: 800px) {
+    .contact-container {
+        margin: 0 20% 15% 20%;
+    }
+    .contact-title-number {
+        font-size: 24px;
+    }
+    .contact-title-name {
+        font-size: 24px;
+    }
+    .contact-calltoaction {
+        font-size: 28px;
+    }
+    .contact-description {
+        font-size: 14px;
+    }
 }

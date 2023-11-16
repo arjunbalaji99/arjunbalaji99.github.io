@@ -10,12 +10,12 @@ const About = () => {
   return (
     <ScrollTrigger onEnter={() => setIsVisible(true)}>
       <div className={`about-container ${isVisible ? 'visible' : ''}`} id='about'>
-        <div className='about-title'>
-          <span className='about-title-number'>01.</span>
-          <span className='about-title-name'>About Me</span>
-          <hr className='about-title-line'></hr>
-        </div>
         <div className='about-description'>
+          <div className='about-title'>
+            <span className='about-title-number'>01.</span>
+            <span className='about-title-name'>About Me</span>
+            <hr className='about-title-line'></hr>
+          </div>
           <div className='about-description-text'>
             <div className='about-description-info'>
               <span className='about-description-info-element'>
@@ -46,10 +46,10 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className='about-description-image-container'>
-            <img className='about-description-image' src={profilepic} alt='hola'/>
-          </div>
         </div>
+        <div className='about-image-container'>
+            <img className='about-image' src={profilepic} alt='hola'/>
+          </div>
       </div>
     </ScrollTrigger>
   )

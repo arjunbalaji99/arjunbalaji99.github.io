@@ -1,9 +1,15 @@
 .footer-container {
     display: flex;
-    margin-left: 585px;
+    flex-direction: column;
+    text-align: center;
     margin-bottom: 50px;
-
 }
 .footer-text {
     color: lightgray;
+}
+
+@media screen and (max-width: 800px) {
+    .footer-text {
+        font-size: 14px;
+    }
 }

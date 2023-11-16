@@ -33,7 +33,7 @@
 .navbar-element {
     color: lightgray;
 }
-.navbar-element:hover {
+.navbar-element:hover, .menu-element:hover, .icon:hover {
     color: #FFD700;
 }
 .navbar-number {
@@ -48,4 +48,60 @@
     text-decoration: none;
     cursor: pointer;
     padding: 10px 20px;
+}
+
+.mobilemenu-container {
+    margin-left: 1rem;
+
+    display: none;
+    position: absolute;
+    left: 90%;
+    z-index: 1000;
+}
+
+.mobilemenu-elements {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+
+    text-align: end;
+    background-color: #243B55;
+    padding: 2rem;
+    position: absolute;
+    z-index: 99 !important;
+    top: 40px;
+    right: 0;
+    margin-top: 1rem;
+    min-width: 100px;
+    border-radius: 5px;
+    box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
+}
+
+.menu-element {
+    margin-bottom: 20px;
+}
+
+.menu-button {
+    background-color: transparent;
+    border: 2px solid #FFD700;
+    border-radius: 4px;
+    color: #FFD700;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.icon {
+    font-size: 36px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+    .navbar-container {
+        display: none;
+    }
+    .mobilemenu-container {
+        display: flex;
+    }
 }

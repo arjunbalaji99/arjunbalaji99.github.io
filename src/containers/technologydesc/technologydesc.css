@@ -11,3 +11,9 @@
     margin-left: 20px;
     color: rgb(186, 185, 185);
 }
+
+@media screen and (max-width: 800px) {
+    .technology-desc-container {
+        font-size: 12px;
+    }
+}

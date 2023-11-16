@@ -61,16 +61,18 @@ const Projects = () => {
         </ScrollTrigger>
         <div className='featured-projects-description'>
           {featuredprojects.map((featuredproject, index) => (
-            <FeaturedProject label={featuredproject} />
+            <div className='featured-project-container'>
+              <FeaturedProject label={featuredproject} />
+            </div>
           ))}
         </div>
         <ScrollTrigger onEnter={() => setIsVisible2(true)}>
           <div className={`other-projects-title ${isVisible2 ? 'visible' : ''}`}>Other Projects</div>
         </ScrollTrigger>
-        <div className='other-projects-description'>
-          {otherprojects.map((otherproject, index) => (
-            <OtherProject label={otherproject} />
-          ))}
+        <div className='other-projects-description'> 
+            {otherprojects.map((otherproject, index) => (
+              <OtherProject label={otherproject} />
+            ))}
         </div>
       </div>
   )

@@ -1,9 +1,8 @@
 .experience-container {
-    margin: 0 400px 250px 300px;
-    padding-top: 100px;
+    margin: 0 20% 20% 20%;
+    padding-top: 50px;
     display: flex;
     flex-direction: column;
-    width: 900px;
     opacity: 0;
     transform: translateX(-200px);
     transition: opacity 2.5s, transform 2.5s ease-in-out;
@@ -16,6 +15,8 @@
     display: flex;
     font-weight: bold;
     align-items: center;
+    justify-content: flex-start;
+    width: 100%;
 }
 .experience-title-number {
     color: gold;
@@ -37,4 +38,16 @@
 .experience-description {
     margin-top: 50px;
     color: lightgray;
+}
+
+@media screen and (max-width: 768px) {
+    .experience-container {
+        margin: 0 10% 20% 10%;
+    }
+    .experience-title-number {
+        font-size: 24px;
+    }
+    .experience-title-name {
+        font-size: 24px;
+    }
 }

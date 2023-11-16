@@ -5,7 +5,7 @@ const Tab = ( {label, onClick, isActiveTab} ) => {
   return (
     <div className='tab-container'>
       {isActiveTab ? (
-        <button className='tab-button-active' onClick={onClick}>
+        <button className='tab-button tab-button-active' onClick={onClick}>
           {label}
         </button>
       ) : (

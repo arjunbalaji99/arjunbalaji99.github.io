@@ -3,7 +3,7 @@ import './project.css'
 import FeaturedProject from '../../containers/featuredproject/FeaturedProject'
 import OtherProject from '../../containers/otherproject/OtherProject'
 import hexapawnprojectimage from '../../assets/vsc.jpg'
-import calculatorprojectimage from '../../assets/calculator.png'
+import spotifyprojectimage from '../../assets/spotify.png'
 import ScrollTrigger from 'react-scroll-trigger';
 
 const Projects = () => {
@@ -20,11 +20,11 @@ const Projects = () => {
       leftBasedImage: true
     },
     { 
-      title: 'Calculator',
-      description: `Moderately advanced calculator app coded and designed from scratch.`,
-      githublink: 'https://github.com/arjunbalaji99/calculator',
-      technologies: ['Java', 'Swing'],
-      image: calculatorprojectimage,
+      title: 'Spotify Stats Compiler',
+      description: `Spotify website that allows users to combine listening stats with their friends.`,
+      githublink: 'https://github.com/arjunbalaji99/spotifyapibot',
+      technologies: ['Flask', 'Python', 'Spotipy', 'Render'],
+      image: spotifyprojectimage,
       leftBasedImage: false
     },
   ]
@@ -35,6 +35,12 @@ const Projects = () => {
       description: `Youtube Clone made while learning HTML/CSS`,
       githublink: 'https://github.com/arjunbalaji99/youtube-clone',
       technologies: ['HTML', 'CSS', 'Flexbox'],
+    },
+    {
+      title: 'Calculator',
+      description: `Moderately advanced calculator app coded and designed from scratch.`,
+      githublink: 'https://github.com/arjunbalaji99/calculator',
+      technologies: ['Java', 'Swing'],
     },
     {
       title: 'Recipe Web Scraper',

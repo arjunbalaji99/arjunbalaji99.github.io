@@ -19,11 +19,11 @@ const About = () => {
           <div className='about-description-text'>
             <div className='about-description-info'>
               <span className='about-description-info-element'>
-                Hello! My name is Arjun and I am a high school senior from Washington State! I love the problem solving and logical nature of programming, and throughout high school, I’ve messed around in a ton of different aspects of the field. From competitive programming competitions to teaching Python to creating websites, I am exploring a ton of different avenues. I hope to study Computer Science in college next year and continue my exposure to the field, and hopefully find a more specific area to pursue for a career.
+                Hello! My name is Arjun and I am a student studying Computer Science at the University of Washington! I love the problem solving and logical nature of programming, and throughout high school, I messed around in a ton of different aspects of the field. From competitive programming competitions to teaching Python to creating websites, I am exploring a ton of different avenues.
               </span>
               <p></p>
               <span className='about-description-info-element'>
-                At the moment, I am working as a part-time developer for RetailRealm, specifically designing UI on their XStreamPOS product. I did an internship at the company during my junior year summer, and I really enjoyed it and learned a lot, and they were happy enough with my performance that they offered me a part-time position during the school year.
+                At the moment, I am working as a part-time software developer for RetailRealm, specifically developing the POS side on their XStreamPOS product. I did an internship at the company during my junior year summer, and I really enjoyed it and learned a lot, and they were happy enough with my performance that they offered me a part-time position during the school year.
               </span>
               <p></p>
               <span className='about-description-info-element'>
